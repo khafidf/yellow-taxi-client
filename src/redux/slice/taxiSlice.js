@@ -12,7 +12,6 @@ const taxiSlice = createSlice({
 	name: "taxi",
 	initialState,
 	reducers: {
-		// pagination (change limit around 10-25)
 		setLimitPagination(state, action) {
 			const { limit } = action.payload;
 			state.limit = limit;
